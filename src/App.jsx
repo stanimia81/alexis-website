@@ -1,6 +1,5 @@
 import React from "react";
 import { FileText } from "lucide-react"; // Icon-Bibliothek
-import profilePic from "/public/assets/profile.jpg";
 
 export default function App() {
   return (
@@ -8,7 +7,7 @@ export default function App() {
       {/* Header */}
       <header className="max-w-4xl w-full bg-white rounded-2xl shadow-sm p-6 flex gap-6 items-center">
         <img
-          src={profilePic}
+          src="/assets/profile.jpg"
           alt="Profilbild Alexis Stanimiroudis"
           className="w-28 h-28 rounded-full object-cover"
         />
@@ -20,7 +19,7 @@ export default function App() {
           <p className="mt-2 text-sm text-gray-700 leading-relaxed">
             Studierte Rechts- und Regionalwissenschaften mit China-Schwerpunkt.
             Heute Qualitätsmanagementbeauftragter in Shenzhen und freiberuflicher Publizist
-            zur chinesischen Wirtschaft.
+            zur chinesischen Digitalwirtschaft.
           </p>
         </div>
       </header>
@@ -43,7 +42,7 @@ export default function App() {
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
             {/* Karte 1 */}
             <a
-              href="/pdfs/24-1+11_Rodenwald+Stanimiroudis_186-194.pdf"
+              href="/pdfs/Asien_Aktuell.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-gray-50 hover:bg-gray-100 rounded-xl p-4 shadow-sm transition"
@@ -54,14 +53,14 @@ export default function App() {
                   <h4 className="font-semibold text-gray-800">
                     Tourismusbeziehungen China–Taiwan
                   </h4>
-                  <p className="text-sm text-gray-600">ASIEN 170/171, 2024</p>
+                  <p className="text-sm text-gray-600">ASIEN Aktuell</p>
                 </div>
               </div>
             </a>
 
             {/* Karte 2 */}
             <a
-              href="/pdfs/(eng) ASIEN 2025 - Tourismus China Taiwan englische Version.pdf"
+              href="/pdfs/CrossAsia.pdf"
               target="_blank"
               rel="noopener noreferrer"
               className="block bg-gray-50 hover:bg-gray-100 rounded-xl p-4 shadow-sm transition"
@@ -73,7 +72,7 @@ export default function App() {
                     Tourism Relations China–Taiwan
                   </h4>
                   <p className="text-sm text-gray-600">
-                    ASIEN 2025 (englische Version)
+                    CrossAsia (englische Version)
                   </p>
                 </div>
               </div>
