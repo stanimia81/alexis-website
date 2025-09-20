@@ -9,7 +9,7 @@ export default function App() {
         <img
           src="/assets/profile.jpg"
           alt="Profilbild Alexis Stanimiroudis"
-          className="w-20 h-20 rounded-full object-cover"
+          className="w-16 h-16 rounded-full object-cover"
         />
         <div>
           <h1 className="text-3xl font-bold">Alexis Stanimiroudis</h1>
@@ -130,4 +130,5 @@ export default function App() {
     </div>
   );
 }
+
 
