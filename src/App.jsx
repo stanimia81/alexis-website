@@ -1,5 +1,6 @@
 import React from "react";
 import { FileText } from "lucide-react"; // Icon-Bibliothek
+import profilePic from "./assets/profile.jpg"; // Bild-Import aus src/assets
 
 export default function App() {
   return (
@@ -7,7 +8,7 @@ export default function App() {
       {/* Header */}
       <header className="max-w-4xl w-full bg-white rounded-2xl shadow-sm p-6 flex gap-6 items-center">
         <img
-          src="/assets/profile.jpg"
+          src={profilePic}
           alt="Profilbild Alexis Stanimiroudis"
           className="w-16 h-16 rounded-full object-cover"
         />
