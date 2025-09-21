@@ -1,5 +1,5 @@
 import React from "react";
-import { FileText } from "lucide-react"; // Icon-Bibliothek
+import { FileText } from "lucide-react";
 import profilePic from "./assets/profile.jpg"; // Bild-Import aus src/assets
 
 export default function App() {
@@ -10,7 +10,7 @@ export default function App() {
         <img
           src={profilePic}
           alt="Profilbild Alexis Stanimiroudis"
-          className="w-16 h-16 rounded-full object-cover"
+          className="w-8 h-8 border-4 border-red-600 rounded-full object-cover"
         />
         <div>
           <h1 className="text-3xl font-bold">Alexis Stanimiroudis</h1>
@@ -41,7 +41,6 @@ export default function App() {
         <section className="bg-white rounded-2xl shadow-sm p-6">
           <h3 className="text-2xl font-semibold mb-6">Publikationen</h3>
           <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
-            {/* Karte 1 */}
             <a
               href="/pdfs/Asien_Aktuell.pdf"
               target="_blank"
@@ -59,7 +58,6 @@ export default function App() {
               </div>
             </a>
 
-            {/* Karte 2 */}
             <a
               href="/pdfs/CrossAsia.pdf"
               target="_blank"
@@ -131,5 +129,3 @@ export default function App() {
     </div>
   );
 }
-
-
