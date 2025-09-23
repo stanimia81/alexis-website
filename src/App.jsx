@@ -13,7 +13,7 @@ export default function App() {
           className="w-8 h-8 border-4 border-red-600 rounded-full object-cover"
         />
         <div>
-          <h1 className="text-3xl font-bold">Alexis Stanimiroudis</h1>
+          <h1 className="text-3xl font-bold">TEST – Alexis Stanimiroudis</h1>
           <h2 className="text-lg text-gray-600">
             Qualitätsmanagementbeauftragter (QMB) und Publizist
           </h2>
