@@ -11,8 +11,8 @@ export default function App() {
           src={profilePic}
           alt="Profilbild Alexis Stanimiroudis"
           style={{
-            width: "64px",
-            height: "64px",
+            width: "96px",
+            height: "96px",
             borderRadius: "50%",
             objectFit: "cover",
             display: "block"
