@@ -26,7 +26,7 @@ export default function App() {
           <p className="mt-2 text-sm text-gray-700 leading-relaxed">
             Studierte Rechts- und Regionalwissenschaften mit China-Schwerpunkt.
             Heute Qualitätsmanagementbeauftragter in Shenzhen und freiberuflicher Publizist
-            zur chinesischen Digitalwirtschaft.
+            zur chinesischen Gesellschaft.
           </p>
         </div>
       </header>
