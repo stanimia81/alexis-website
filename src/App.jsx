@@ -7,7 +7,14 @@ export default function App() {
       <img
         src={profilePic}
         alt="Profilbild Alexis Stanimiroudis"
-        className="w-8 h-8 border-8 border-green-600 rounded-full object-contain"
+        style={{
+          width: "32px",
+          height: "32px",
+          border: "8px solid green",
+          borderRadius: "50%",
+          objectFit: "cover",
+          display: "block"
+        }}
       />
       <h1 className="mt-4 text-3xl font-bold">TEST – Alexis Stanimiroudis</h1>
     </div>
