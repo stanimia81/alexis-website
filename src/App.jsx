@@ -1,5 +1,5 @@
 import React from "react";
-import { Mail, Linkedin, Instagram, Facebook, MessageCircle, FileText } from "lucide-react";
+import { Mail, Linkedin, Instagram, Facebook, MessageCircle, FileText, Download } from "lucide-react";
 import profilePic from "./assets/profile.jpg";
 
 export default function App() {
@@ -31,11 +31,51 @@ export default function App() {
               Berlin und Hangzhou. Heute RB in Shenzhen und Publizist zur chinesischen
               Gesellschaft.
             </p>
+            {/* Lebenslauf Download Button im Header */}
+            <div className="mt-6">
+              <a
+                href="/assets/lebenslauf.pdf"
+                target="_blank"
+                rel="noopener noreferrer"
+                className="inline-flex items-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition shadow-md"
+              >
+                <Download size={20} />
+                Lebenslauf (PDF)
+              </a>
+            </div>
           </div>
         </div>
       </header>
 
       <main className="max-w-6xl mx-auto px-6 py-12 space-y-12">
+        {/* Lebenslauf Section */}
+        <section className="bg-white rounded-2xl shadow p-6">
+          <h3 className="text-2xl font-semibold mb-6">Lebenslauf</h3>
+          <div className="flex flex-col sm:flex-row gap-4">
+            <a
+              href="/assets/lebenslauf.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center justify-center gap-2 bg-green-600 text-white px-6 py-3 rounded-lg hover:bg-green-700 transition shadow-md"
+            >
+              <FileText size={20} />
+              Lebenslauf ansehen
+            </a>
+            <a
+              href="/assets/lebenslauf.pdf"
+              download="Lebenslauf_Alexis_Stanimiroudis.pdf"
+              className="inline-flex items-center justify-center gap-2 bg-blue-600 text-white px-6 py-3 rounded-lg hover:bg-blue-700 transition shadow-md"
+            >
+              <Download size={20} />
+              Lebenslauf herunterladen
+            </a>
+          </div>
+          {/* Optional: Vorschau Hinweis */}
+          <p className="text-gray-600 text-sm mt-4">
+            Der Lebenslauf wird in einem neuen Tab geöffnet oder direkt heruntergeladen.
+          </p>
+        </section>
+
         {/* Über mich */}
         <section className="bg-white rounded-2xl shadow p-6">
           <h3 className="text-2xl font-semibold mb-4">Über mich</h3>
