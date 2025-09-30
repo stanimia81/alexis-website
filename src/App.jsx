@@ -24,12 +24,12 @@ export default function App() {
           <div className="md:col-span-2">
             <h1 className="text-4xl font-bold">Alexis Stanimiroudis</h1>
             <h2 className="text-lg text-blue-600 mt-2">
-              Qualitätsmanagementbeauftragter (QMB) & Publizist
+              Regionalbeauftragter (RB) & Publizist
             </h2>
             <p className="mt-4 text-gray-700 leading-relaxed">
               Studierte Rechts- und Regionalwissenschaften mit China-Schwerpunkt in Göttingen,
-              Berlin und Hangzhou. Heute QMB in Shenzhen und Publizist zur chinesischen
-              Digitalwirtschaft, Regulierung und Politik.
+              Berlin und Hangzhou. Heute RB in Shenzhen und Publizist zur chinesischen
+              Gesellschaft.
             </p>
           </div>
         </div>
@@ -42,8 +42,8 @@ export default function App() {
           <p className="leading-relaxed text-gray-700">
             Geboren in Göttingen, Studium in Göttingen, Berlin und Hangzhou.
             Vertiefte Mandarin und interkulturelle Kompetenzen an der Zhejiang-Universität.
-            Heute tätig als QMB in Shenzhen und als Publizist mit Schwerpunkt
-            chinesische Digitalwirtschaft, Regulierung und Politik.
+            Heute tätig als RB in Shenzhen und als Publizist mit Schwerpunkt
+            chinesische Polit-Ökonomie und Kultur.
           </p>
         </section>
 
