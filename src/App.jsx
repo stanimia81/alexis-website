@@ -24,12 +24,12 @@ export default function App() {
           <div className="md:col-span-2">
             <h1 className="text-4xl font-bold">Alexis Stanimiroudis</h1>
             <h2 className="text-lg text-blue-600 mt-2">
-              Regionalbeauftragter (RB) & Publizist
+              Regionalwissenschaftler (B.A.) & Publizist
             </h2>
             <p className="mt-4 text-gray-700 leading-relaxed">
               Studierte Rechts- und Regionalwissenschaften mit China-Schwerpunkt in Göttingen,
-              Berlin und Hangzhou. Heute RB in Shenzhen und Publizist zur chinesischen
-              Gesellschaft.
+              Berlin und Hangzhou. Heute Publizist zur chinesischen
+             Gesellschaft.
             </p>
             {/* Lebenslauf Download Button im Header */}
             <div className="mt-6">
@@ -82,7 +82,7 @@ export default function App() {
           <p className="leading-relaxed text-gray-700">
             Geboren in Göttingen, Studium in Göttingen, Berlin und Hangzhou.
             Vertiefte Mandarin und interkulturelle Kompetenzen an der Zhejiang-Universität.
-            Heute tätig als RB in Shenzhen und als Publizist mit Schwerpunkt
+            Heute tätig als Publizist mit Schwerpunkt
             chinesische Polit-Ökonomie und Kultur.
           </p>
         </section>
