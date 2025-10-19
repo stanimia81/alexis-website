@@ -24,7 +24,7 @@ export default function App() {
           <div className="md:col-span-2">
             <h1 className="text-4xl font-bold">Alexis Stanimiroudis</h1>
             <h2 className="text-lg text-blue-600 mt-2">
-              Regionalwissenschaftler (B.A.) & Publizist
+              Regionalwissenschaftler & Publizist
             </h2>
             <p className="mt-4 text-gray-700 leading-relaxed">
               Studierte Rechts- und Regionalwissenschaften mit China-Schwerpunkt in Göttingen,
