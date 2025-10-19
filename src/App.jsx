@@ -9,7 +9,7 @@ export default function App() {
     de: {
       title: "Alexis Stanimiroudis",
       subtitle: "Regionalwissenschaftler & Publizist",
-      description: "Studierte Rechts- und Regionalwissenschaften mit China-Schwerpunkt in Göttingen, Berlin und Hangzhou. Heute Publizist zur chinesischen Gesellschaft.",
+      description: "Studierte Rechts- und Regionalwissenschaften mit China-Schwerpunkt in Göttingen, Berlin und Hangzhou. Zurzeit wohnhaft in Berlin.",
       about: "Über mich",
       aboutText: "Geboren in Göttingen, Studium in Göttingen, Berlin und Hangzhou. Vertiefte Mandarin und interkulturelle Kompetenzen an der Zhejiang-Universität. Heute tätig als Publizist mit Schwerpunkt chinesische Polit-Ökonomie und Kultur.",
       cv: "Lebenslauf",
@@ -28,7 +28,7 @@ export default function App() {
     en: {
       title: "Alexis Stanimiroudis",
       subtitle: "Regional Scientist & Publicist",
-      description: "Studied law and regional sciences with a China focus in Göttingen, Berlin, and Hangzhou. Currently working as a publicist on Chinese society.",
+      description: "Studied law and regional sciences with a China focus in Göttingen, Berlin, and Hangzhou. Currently residing in Berlin.",
       about: "About Me",
       aboutText: "Born in Göttingen, studied in Göttingen, Berlin, and Hangzhou. Enhanced Mandarin and intercultural competencies at Zhejiang University. Currently working as a publicist with a focus on Chinese political economy and culture.",
       cv: "Curriculum Vitae",
@@ -47,7 +47,7 @@ export default function App() {
     zh: {
       title: "Alexis Stanimiroudis",
       subtitle: "区域科学家 & 出版人",
-      description: "在哥廷根、柏林和杭州学习法律和区域科学，主攻中国研究。目前担任中国社会领域的出版人。",
+      description: "在哥廷根、柏林和杭州学习法律和区域科学，主攻中国研究。目前居住在柏林。",
       about: "关于我",
       aboutText: "出生于哥廷根，在哥廷根、柏林和杭州学习。在浙江大学提升了普通话和跨文化能力。目前担任专注于中国政治经济和文化的出版人。",
       cv: "简历",
