@@ -45,7 +45,7 @@ export default function App() {
       wechat: "WeChat: ZZbao00"
     },
     zh: {
-      title: "Alexis Stanimiroudis",
+      title: "Alexis Stanimiroudis (周昂)",
       subtitle: "区域科学家 & 出版人",
       description: "在哥廷根、柏林和杭州学习法律和区域科学，主攻中国研究。目前居住在柏林。",
       about: "关于我",
