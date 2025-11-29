@@ -1,5 +1,5 @@
 import React, { useState } from "react";
-import { Mail, Linkedin, Instagram, Facebook, MessageCircle, FileText, Download, Languages } from "lucide-react";
+import { Mail, Linkedin, Instagram, Facebook, MessageCircle, FileText, Download, Languages, ExternalLink } from "lucide-react";
 import profilePic from "./assets/profile.jpg";
 
 export default function App() {
@@ -16,6 +16,9 @@ export default function App() {
       cvView: "Lebenslauf ansehen",
       cvDownload: "Lebenslauf herunterladen",
       cvNote: "Der Lebenslauf wird in einem neuen Tab geöffnet oder direkt heruntergeladen.",
+      recentArticle: "Aktueller Artikel",
+      articleTitle: "Imperialistische Ambitionen im Gewand des Feminismus: Japans neue Premierministerin Sanae Takaichi und die Rechtswendung gegen China",
+      articleLink: "Zum Artikel auf socialistchina.org",
       publications: "Publikationen",
       publication1: "Tourismusbeziehungen China–Taiwan",
       publication1Sub: "ASIEN Aktuell",
@@ -35,6 +38,9 @@ export default function App() {
       cvView: "View CV",
       cvDownload: "Download CV",
       cvNote: "The CV will open in a new tab or download directly.",
+      recentArticle: "Recent Article",
+      articleTitle: "Imperialist Ambitions in the Guise of Feminism: Japan's New Prime Minister Sanae Takaichi and the Rightward Turn Against China",
+      articleLink: "Read article on socialistchina.org",
       publications: "Publications",
       publication1: "Tourism Relations China–Taiwan",
       publication1Sub: "ASIEN Aktuell (German)",
@@ -45,7 +51,7 @@ export default function App() {
       wechat: "WeChat: ZZbao00"
     },
     zh: {
-      title: "Alexis Stanimiroudis (周昂)",
+      title: "Alexis Stanimiroudis",
       subtitle: "区域科学家 & 出版人",
       description: "在哥廷根、柏林和杭州学习法律和区域科学，主攻中国研究。目前居住在柏林。",
       about: "关于我",
@@ -54,6 +60,9 @@ export default function App() {
       cvView: "查看简历",
       cvDownload: "下载简历",
       cvNote: "简历将在新标签页中打开或直接下载。",
+      recentArticle: "近期文章",
+      articleTitle: "伪装成女性主义的帝国主义野心：日本新首相高市早苗及对华的右转",
+      articleLink: "在 socialistchina.org 上阅读文章",
       publications: "出版物",
       publication1: "中国-台湾旅游关系",
       publication1Sub: "ASIEN Aktuell (德语)",
@@ -102,7 +111,7 @@ export default function App() {
               }`}
             >
               中文
-            </button>
+           </button>
             <Languages size={16} className="text-gray-400 mx-1" />
           </div>
         </div>
@@ -150,6 +159,25 @@ export default function App() {
       </header>
 
       <main className="max-w-6xl mx-auto px-6 py-12 space-y-12">
+        {/* Recent Article */}
+        <section className="bg-white rounded-2xl shadow p-6">
+          <h3 className="text-2xl font-semibold mb-4">{t.recentArticle}</h3>
+          <div className="bg-gradient-to-r from-blue-50 to-indigo-50 rounded-xl p-6 border border-blue-100">
+            <h4 className="font-semibold text-gray-800 text-lg mb-3">
+              {t.articleTitle}
+            </h4>
+            <a
+              href="https://socialistchina.org/2025/11/28/imperialist-ambitions-in-the-guise-of-feminism-japans-new-prime-minister-sanae-takaichi-and-the-rightward-turn-against-china/"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-flex items-center gap-2 bg-red-600 text-white px-5 py-2 rounded-lg hover:bg-red-700 transition shadow-md"
+            >
+              <ExternalLink size={18} />
+              {t.articleLink}
+            </a>
+          </div>
+        </section>
+
         {/* CV Section */}
         <section className="bg-white rounded-2xl shadow p-6">
           <h3 className="text-2xl font-semibold mb-6">{t.cv}</h3>
